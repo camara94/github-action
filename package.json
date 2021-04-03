@@ -4,7 +4,7 @@
     "description": "This project is a collaboration between Duck Labs and EvolveU that aims to teach students the entirety of the spectrum of full-stack web development.",
     "main": "server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "jest",
         "start": "node server.js",
         "dev": "nodemon --ignore feedback.json server.json"
     },
